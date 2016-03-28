@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- HEADER STYLE -->
+    <style name="detailHeader" parent="AppTheme">
+        <item name="android:textColor">@color/lightText</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">25dp</item>
+        <item name="android:paddingBottom">25dp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Image Style -->
+    <style name="detailPoster" parent="AppTheme">
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <!-- Year Style -->
+    <style name="detailYear" parent="AppTheme">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="detailRating" parent="AppTheme">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Synopsis Style -->
+    <style name="detailSynopsis" parent="AppTheme">
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+</resources>
